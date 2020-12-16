@@ -1,0 +1,50 @@
+.app {
+  color: #1f1f1f;
+}
+
+.couverture {
+  height: 150px;
+  position: relative;
+  margin-bottom: 4rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-image {
+  top: 50%;
+  left: 1.5rem;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  border-radius: 100%;
+  border: 3px solid white;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.content {
+  padding: 0 1.5rem;
+}
+
+.full-name {
+  font-size: 1.5rem;
+  letter-spacing: .5px;
+}
+
+.title {
+  font-size: .75rem;
+  letter-spacing: normal;
+}
+
+.actual-company {
+  width: 32px;
+  height: 32px;
+  right: 1.5rem;
+  bottom: -1rem;
+  background: white;
+  position: absolute;
+  border-radius: 100%;
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
